@@ -85,8 +85,9 @@ INSERT INTO tabelaclientes
  ('1', 'Ana Silva', 'ana.silva@gmail.com','rua flores- casa 1');
 
 -- O INSERT INTO serve para vc inserir informações em cada uma das linhas e colunas respectivas
+-- O INTO serve para acompanhar o INSERT, usado aqui para mostrar onde tem que inserir os dados
 -- O VALUES serve para colcoar as informações em cada uma das colunas da tabela na qual vc selecionou! ----> E cada informação do value deve ser Colocada nos respectivos lugares no INSERT 
- 
+
 
 Aulas: 
  
