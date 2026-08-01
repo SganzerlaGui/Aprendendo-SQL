@@ -69,6 +69,50 @@ ALTER TABLE Estudantes
 ADD Idade INT;
 
 
+CREATE TABLE TabelaCategorias (
+   ID_categoria INT PRIMARY KEY,
+   Nome_Categoria VARCHAR (250),
+  Descrição_Categoria TEXT
+);
+
+
+
+
+ALTER TABLE tabelaclientes ADD Edereço_cliente VARCHAR (250)
+
+DROP TABLE tabelaclientes
+
+
+
+
+
+
+ -- SELECT * FROM tabelafornecedores WHERE pa_s_de_origem = 'China'
+-- SELECT DISTINCT cliente FROm tabelapedidos;
+--CREATE TABLE tabelaclientes (
+--  ID_Cliente INT PRIMARY KEY,
+-- Nome_cliente VARCHAR (250),
+-- Informaçõe_de_Contato VARCHAR (250)
+--  );
+SELECT*from tabelaclientes
+
+
+
+
+
+
+CREATE TABLE TabelaProdutos (
+  ID_produto INT PRIMARY KEY,
+  Nome_produto VARCHAR (250),
+  Descruição TEXT,
+  Categoria INT,
+  Preço_Produto DECIMAL (10,2),
+  Unidade VARCHAR (50),
+  Fornecedor INT,
+  Data_de_Inclusão DATE,
+  FOrEIGN KEY (Categoria) REFERENCES TabelaCategorias (id_categoria),
+  FOREIGN KEY (fornecedor) REFERENCES tabelafornecedores (id)
+  );
 
 Falando sobre PRIMARY KEY ---
 
