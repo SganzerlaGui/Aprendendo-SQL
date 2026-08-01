@@ -155,6 +155,13 @@ Para apelidar uma coluna usar assim:
 -- O AS serve para você escolher o nome novo da coluna
 -- Só serve se colocar antes da consulta! Porque depois ele logo volta ao nome padrão
 
+
+delete from tabelafornecedores where pa_s_de_origem = 'Turquia';
+
+-- O Código para excluir um tipo de "objeto" do meu banco de dados
+
+
+
 -----------------------------------------------------------------------------------
 
 INSERT INTO tabelaclientes 
