@@ -43,3 +43,12 @@ SELECT*from tabelaclientes
 
 --BLOB (Binary Large Object): Armazena dados binários, como imagens, vídeos ou arquivos.
 --BIT: Armazena valores binários, como 0 ou 1.
+
+
+Para criar um banco de dados usamos:
+CREATE DATABASE "nome que deseja dar para o seu banco de dados";
+
+Para criar um esquema no banco de dados
+CREATE SCHEMA "nome do seu esquema"
+
+
