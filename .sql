@@ -158,7 +158,7 @@ Para apelidar uma coluna usar assim:
 
 delete from tabelafornecedores where pa_s_de_origem = 'Turquia';
 
--- O Código para excluir um tipo de "objeto" do meu banco de dados
+-- O Código para excluir um tipo de "objeto" de uma linha do meu banco de dados
 
 
 
