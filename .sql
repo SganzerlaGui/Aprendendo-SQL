@@ -62,3 +62,8 @@ ALTER TABLE tabelaclientes ADD Edereço_cliente VARCHAR (250)
 DROP TABLE tabelaclientes
 
 -- O DROP TABLE serve para a gente excluir uma tabela no SQL
+
+Por exemplo, para adicionar uma coluna chamada "Idade" à tabela "Estudantes", você usaria:
+
+ALTER TABLE Estudantes
+ADD Idade INT;
