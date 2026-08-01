@@ -67,3 +67,9 @@ Por exemplo, para adicionar uma coluna chamada "Idade" à tabela "Estudantes", v
 
 ALTER TABLE Estudantes
 ADD Idade INT;
+
+
+
+Falando sobre PRIMARY KEY ---
+
+-- A chave primária é um dado que serve como identificador único para cada linha em uma tabela, não podendo ter valores repetidos. Ela garante que cada registro seja exclusivo, como o ID_Cliente ou um número de documento.
