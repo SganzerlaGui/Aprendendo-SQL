@@ -153,7 +153,7 @@ VALUES
 Para apelidar uma coluna usar assim:
  SELECT informaçõe_de_contato AS EMAIL_CLIENTE FROM tabelaclientes;
 -- O AS serve para você escolher o nome novo da coluna
-
+-- Só serve se colocar antes da consulta! Porque depois ele logo volta ao nome padrão
 
 -----------------------------------------------------------------------------------
 
