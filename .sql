@@ -147,8 +147,15 @@ endereço_cliente)
 VALUES
  ('1', 'Ana Silva', 'ana.silva@gmail.com','rua flores- casa 1');
  SELECT * FROM tabelaclientes;
-  
 
+
+
+Para apelidar uma coluna usar assim:
+ SELECT informaçõe_de_contato AS EMAIL_CLIENTE FROM tabelaclientes;
+-- O AS serve para você escolher o nome novo da coluna
+
+
+-----------------------------------------------------------------------------------
 
 INSERT INTO tabelaclientes 
 ( id_cliente,
