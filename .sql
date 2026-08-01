@@ -69,6 +69,27 @@ ALTER TABLE Estudantes
 ADD Idade INT;
 
 
+Falando sobre PRIMARY KEY ---
+
+-- A chave primária é um dado que serve como identificador único para cada linha em uma tabela, não podendo ter valores repetidos. Ela garante que cada registro seja exclusivo, como o ID_Cliente ou um número de documento.
+
+
+INSERT INTO tabelaclientes
+( id_cliente,
+ nome_cliente,
+ informaçõe_de_contato,
+ endereço_cliente)
+ 
+ -- Mesma ordem de valor - caluna! Mesma sequencia que o insert --> values
+ VALUES
+ ('1', 'Ana Silva', 'ana.silva@gmail.com','rua flores- casa 1');
+
+-- O INSERT INTO serve para vc inserir informações em cada uma das linhas e colunas respectivas
+-- O VALUES serve para colcoar as informações em cada uma das colunas da tabela na qual vc selecionou! ----> E cada informação do value deve ser Colocada nos respectivos lugares no INSERT 
+ 
+
+Aulas: 
+ 
 CREATE TABLE TabelaCategorias (
    ID_categoria INT PRIMARY KEY,
    Nome_Categoria VARCHAR (250),
@@ -114,6 +135,3 @@ CREATE TABLE TabelaProdutos (
   FOREIGN KEY (fornecedor) REFERENCES tabelafornecedores (id)
   );
 
-Falando sobre PRIMARY KEY ---
-
--- A chave primária é um dado que serve como identificador único para cada linha em uma tabela, não podendo ter valores repetidos. Ela garante que cada registro seja exclusivo, como o ID_Cliente ou um número de documento.
