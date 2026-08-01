@@ -8,3 +8,38 @@ SELECT * FROM tabelafornecedores WHERE pa_s_de_origem = 'China'
 SELECT DISTINCT cliente FROM tabelapedidos;
 
 -- O DISTINCT que utilizei logo acima serve para você selecionar uma informação, como o nome diz, distinta.  ----> Assim, vindo logo após o SELECT
+
+CREATE TABLE tabelaclientes (
+ ID_Cliente INT PRIMARY KEY,
+ Nome_cliente VARCHAR (250),
+ Informaçõe_de_Contato VARCHAR (250)
+ );
+
+SELECT*from tabelaclientes
+
+-- Aqui, temos o CREATE TABLE que serve para criar uma tabela nova como o nome já diz! assim escolhemos o nome dela e abrimos parenteses para passar as informações para ela
+-- INT significa que vai ser um numero inteiro 
+-- O VARCHAR serve para delimitar a quantidade de digitos 
+
+1 - Texto (String):
+
+--CHAR: Armazena strings de tamanho fixo. Usado quando os valores têm um comprimento constante.
+--VARCHAR: Armazena strings de tamanho variável. Apropriado para valores com comprimentos variáveis.
+--TEXTO (TEXT): Armazena strings muito longas, como documentos ou descrições.
+2 - Numérico:
+
+--INTEGER (INT): Armazena números inteiros.
+--FLOAT: Armazena números de ponto flutuante, geralmente usados para valores com casas decimais.
+--NUMERIC (DECIMAL): Armazena números com uma precisão específica, geralmente usados em aplicações financeiras.
+3 - Data e Hora:
+
+--DATE: Armazena datas sem informações de horário.
+--TIME: Armazena informações de horário.
+--TIMESTAMP: Combina data e horário em um único tipo.
+4 - Booleano:
+  
+--BOOLEAN (BOOL): Armazena valores verdadeiros ou falsos.
+5 - Binário:
+
+--BLOB (Binary Large Object): Armazena dados binários, como imagens, vídeos ou arquivos.
+--BIT: Armazena valores binários, como 0 ou 1.
