@@ -160,8 +160,9 @@ delete from tabelafornecedores where pa_s_de_origem = 'Turquia';
 
 -- O Código para excluir um tipo de "objeto" de uma linha do meu banco de dados
 
-
-
+DICA:
+ -- Algumas versões o SQLite pode ter a verificação de chaves estrangeiras desativada, o que impede que a exclusão em cascata funcione como esperado. Use o comando abaixo para ativar essa opção para que as operações de DELETE CASCADE sejam realizadas corretamente.
+-- Com isso, use o code ========> PRAGMA foreign_keys = ON; <============
 -----------------------------------------------------------------------------------
 
 INSERT INTO tabelaclientes 
