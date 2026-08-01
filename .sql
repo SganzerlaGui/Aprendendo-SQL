@@ -52,3 +52,5 @@ Para criar um esquema no banco de dados
 CREATE SCHEMA "nome do seu esquema"
 
 
+SELECT*from tabelaclientes
+
