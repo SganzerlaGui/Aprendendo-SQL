@@ -54,3 +54,11 @@ CREATE SCHEMA "nome do seu esquema"
 
 SELECT*from tabelaclientes
 
+
+ALTER TABLE tabelaclientes ADD Edereço_cliente VARCHAR (250)
+
+-- O ALTER TABLE serve para mudar ou alterar uma tabela
+ 
+DROP TABLE tabelaclientes
+
+-- O DROP TABLE serve para a gente excluir uma tabela no SQL
